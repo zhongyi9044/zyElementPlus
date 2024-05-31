@@ -1,0 +1,30 @@
+{
+  "id": "4558224",
+  "name": "zy-ui",
+  "font_family": "zy-ui-icons",
+  "css_prefix_text": "zy-icon-",
+  "description": "zy-ui",
+  "glyphs": [
+    {
+      "icon_id": "3890639",
+      "name": "狗狗",
+      "font_class": "gougou",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "3896042",
+      "name": "狗狗",
+      "font_class": "gougou1",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "20416228",
+      "name": "狗狗出售",
+      "font_class": "gougouchushou",
+      "unicode": "ed07",
+      "unicode_decimal": 60679
+    }
+  ]
+}

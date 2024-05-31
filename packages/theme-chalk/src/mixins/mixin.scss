@@ -1,0 +1,38 @@
+@import "../common/var.scss";
+
+@mixin b($block) {
+  $B: $namespace + '-' + $block;
+  .#{$B} {
+    @content;
+  }
+}
+
+@mixin when($block) {
+  @at-root {
+    &.#{$state-prefix + $block} {
+      @content;
+    }
+  }
+}
+
+@mixin m($modifier){
+  @at-root{
+    #{&+$modifier-separator+$modifier}{
+      @content;
+    }
+  }
+};
+
+@mixin e($element){
+  @at-root{
+    #{&+$element-separator+$element}{
+      @content;
+    }
+  }
+};
+
+@mixin button-type($color,$background-color,$border-color) {
+  color:$color;
+  background-color:$background-color;
+  border-color:$border-color
+}
